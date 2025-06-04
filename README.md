@@ -24,10 +24,15 @@ Desenvolver um sistema embarcado para controle remoto de iluminação residencia
 
 ## 🛠️ Funcionalidades Obrigatórias 
 ✅ Controle via MQTT: A placa atua como cliente MQTT, recebendo comandos para alternar os estados de 4 quadrantes da matriz de LEDs.
+
 ✅ Publicação de Estados: A placa publica o estado atual ("On"/"Off") de cada quadrante e a potência total consumida via MQTT.
+
 ✅ Conexão Wi-Fi: O Pico W conecta-se a uma rede Wi-Fi para estabelecer comunicação com o broker MQTT.
+
 ✅ Indicador de Status Online: Utiliza o recurso Last Will and Testament (LWT) do MQTT para indicar seu status online/offline.
+
 ✅ Feedback Visual: As mudanças nos estados dos quadrantes são refletidas instantaneamente na matriz de LEDs.
+
 ✅ Exibição de Potência: Um display OLED exibe a potência total calculada dos quadrantes ativos.
 
 ## 📦 Componentes Utilizados  
