@@ -11,7 +11,7 @@
 - [👨‍💻 Autor](#-autor)  
 
 ## 📹 Demonstração  
-[clique aqui para acessar o vídeo](https://youtu.be/NvOw4scISNc)
+[clique aqui para acessar o vídeo](https://youtu.be/QXh9_MFI12c)
  
 Conteúdo do vídeo:  
 - Apresentação do projeto  
@@ -45,7 +45,7 @@ Desenvolver um sistema embarcado para controle remoto de iluminação residencia
 
 ## ⚙️ Compilação e Gravação  
 ```bash
-git clone https://github.com/Ronaldo8617/SmartLights
+git clone https://github.com/Ronaldo8617/SmartLightsMQTT
 cd SmartLights
 mkdir build
 cd build
